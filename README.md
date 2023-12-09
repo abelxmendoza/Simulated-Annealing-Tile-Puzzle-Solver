@@ -8,6 +8,28 @@ The tile puzzle involves arranging a set of numbered tiles into a specific order
 
 ![1702160685754](image/README/1702160685754.png)
 
+## Simulated Annealing Overview
+
+Simulated Annealing is a powerful optimization algorithm inspired by the annealing process in metallurgy. The algorithm mimics the physical annealing process by iteratively exploring solution spaces, allowing for both exploration and exploitation.
+
+### Key Concepts
+
+#### Annealing Schedule
+
+Simulated annealing uses an "annealing schedule" where the system's temperature is gradually decreased. At higher temperatures, the algorithm explores a broader solution space, accepting worse solutions probabilistically. As the temperature decreases, the algorithm becomes more deterministic, focusing on refining the solution.
+
+#### Objective Function
+
+The "objective function" measures the quality of a solution. Simulated annealing aims to find optimal or near-optimal solutions by iteratively exploring neighboring states and accepting probabilistic moves based on the Metropolis criterion.
+
+#### Metropolis Criterion
+
+The Metropolis criterion governs whether to accept a move to a neighboring state, even if it worsens the solution. The probability of accepting a worse move is determined by the change in the objective function and the current temperature.
+
+### Application to Tile Puzzle Solver
+
+In the tile puzzle solver context, simulated annealing explores different puzzle configurations. The algorithm accepts moves that lead to worse states initially, allowing exploration. As the temperature decreases, the algorithm becomes more selective, converging towards an optimal or near-optimal solution.
+
 ## Usage
 
 1. **Clone the repository:**
