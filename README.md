@@ -6,6 +6,8 @@ This repository contains a Python script, `simulated_annealing_tile_puzzle.py`, 
 
 The tile puzzle involves arranging a set of numbered tiles into a specific order, typically from an initial, disorderly state. The goal is to reach a target state with a predefined order of tiles.
 
+![1702160685754](image/README/1702160685754.png)
+
 ## Usage
 
 1. **Clone the repository:**
